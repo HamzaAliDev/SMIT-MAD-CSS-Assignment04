@@ -20,4 +20,12 @@ header{
 }
 #about-section img{
     filter: grayscale(0.75);
+    transition: all 0.75s;
+}
+#about-section img:hover{
+    transform: scale(1.5);
+
+}
+.overflow{
+    overflow: hidden;
 }
